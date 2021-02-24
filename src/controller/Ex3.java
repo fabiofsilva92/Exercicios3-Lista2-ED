@@ -197,7 +197,7 @@ public class Ex3 {
 		int position = 0;
 		do {
 		position = Integer.parseInt(JOptionPane.showInputDialog("Digite a posição do vetor que deseja selecionar: \n "
-				+ "obs: P/ remover , escolha uma posição entre a 1ª e a " +(auxTam) + "ª posição \n"
+				+ "obs: \n P/ remover , escolha uma posição entre a 1ª e a " +(auxTam) + "ª posição \n"
 						+ "P/ adicionar escolha entre a 1ª e a " +(auxTam + 1) + "ª posição"));
 		}while (position>auxTam+1);
 		return position-1;
